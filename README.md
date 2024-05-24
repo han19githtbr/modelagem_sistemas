@@ -36,5 +36,4 @@ CREATE TABLE Emprestimo (
     FOREIGN KEY (colaboradorCpf) REFERENCES Colaborador(cpf),
     FOREIGN KEY (raAluno) REFERENCES Aluno(ra)
 );
-
 ```
